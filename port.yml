@@ -1,0 +1,18 @@
+- identifier: some_identifier
+  title: walmart-microservices-demo
+  team: []
+  icon: DefaultBlueprint
+  blueprint: githubRepository
+  properties:
+    readme: string
+    url: https://mariana-gu/walmart-microservices-demo
+    defaultBranch: string
+    last_contributor: string
+    last_push: '2025-08-20T21:42:00.382Z'
+    require_code_owner_review: false
+    require_approval_count: 0
+  relations:
+    githubTeams:
+      - related_entity_identifier
+      - another_related_entity_identifier
+    snyk_target: related_entity_identifier
